@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { apiRequest } from "@/Services/api.js";
+import { apiRequest } from "../../Services/auth.js";
 import { useRouter, useSearchParams } from "next/navigation";
 
 export default function VerifyPage() {
