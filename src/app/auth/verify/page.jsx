@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { verifyEmail } from "../../../Services/auth.js";
+import { apiRequest } from "@/Services/auth.js";
 
 export default function VerifyPage() {
   const [code, setCode] = useState("");
